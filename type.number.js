@@ -1,6 +1,6 @@
-let altura = 5;
-let comprimento = 7;
+let numero = 3;
+let texto = "Alura";
 
-area = altura * comprimento;
+console.log(typeof numero);
+console.log(typeof texto)
 
-console.log(area);
