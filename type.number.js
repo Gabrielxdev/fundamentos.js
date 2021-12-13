@@ -1,12 +1,6 @@
+let altura = 5;
+let comprimento = 7;
 
-const primeiroNumero = 5;
-const segundoNumero = 5;
+area = altura * comprimento;
 
-console.log(primeiroNumero === segundoNumero);
-
-
-const texto1 = "Alura";
-
-const texto2 = 'A';
-
-console.log(texto1 === texto2);
+console.log(area);
