@@ -1,5 +1,7 @@
-let nomes = ['ana Julia', 'Caio vinicius', 'BIA silva']
+const nome = "Alura";
+let nomeMaiusculas = "";
 
-const nomesAtualizados = nomes.map(nome => nome.toUpperCase());
-
-console.log(nomesAtualizados)
+for (let i = 0; i < nome.length; i++) {
+ nomeMaiusculas += nome[i].toUpperCase()
+}
+console.log(nomeMaiusculas) //ALURA
